@@ -74,15 +74,6 @@ public class HW02 {
         }
     }
 
-    static public String TextPrint(String s) {
-        String res = "";
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < 100; i++) {
-            sb.append(s);
-        }
-        res = sb.toString();
-        return res;
-    }
     static public void CreateFile() {
         try {
             String pathProject = System.getProperty("user.dir");
